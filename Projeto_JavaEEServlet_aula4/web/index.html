@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Projeto JavaEE Servlet - Aula 4</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Pagina Inicial</h1>
+        <h2>Aluno</h2>
+        <h3>Nome: Caio Henrique Oliveira Severo</h3>
+        <h3>RA: 1290482013007</h3>
+        <hr>
+        <h4>Cálculo do juros simples</h4>
+        <form action="juros-simples.html">
+            <label for="vlP1">Valor Atual:</label>
+            <input type="number" name="vlP" id="vlP1" min="1"><br><!-- valor atual -->
+            <label for="juros1">Valor do juros (%):</label>
+            <input type="number" name="juros" id="juros1" min="1"><br><!-- valor do juros em % -->
+            <label for="tempo1">Quantidade de meses:</label>
+            <input type="number" name="tempo" id="tempo1" placeholder="Meses" min="1" max="12"><br><!-- valor do tempo em meses -->
+            <input type="submit" value="Confirmar"><br>
+        </form>
+        <br>
+        <hr>
+        <h4>Cálculo do juros composto</h4>
+        <form action="juros-composto.html">
+            <label for="vlP2">Valor Atual:</label>
+            <input type="number" name="vlP" id="vlP2" min="1"><br><!-- valor atual -->
+            <label for="juros2">Valor do juros (%):</label>
+            <input type="number" name="juros" id="juros2" min="1"><br><!-- valor do juros em % -->
+            <label for="tempo2">Quantidade de meses:</label>
+            <input type="number" name="tempo" id="tempo2" placeholder="Meses" min="1" max="12"><br><!-- valor do tempo em meses -->
+            <input type="submit" value="Confirmar"><br>
+        </form>
+    </body>
+</html>
